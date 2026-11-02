@@ -1,0 +1,11 @@
+{
+	"scripts": {
+		"start": "eleventy --serve",
+		"build": "eleventy"
+	},
+	"type": "module",
+	"devDependencies": {
+		"@11ty/eleventy": "^3.1.7",
+		"js-yaml": "^5.5.0"
+	}
+}

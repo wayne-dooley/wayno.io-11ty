@@ -1,0 +1,80 @@
+/* Custom styles for wayno.io */
+
+.navbar {
+    padding: 1rem;
+}
+
+.nav-link {
+    padding: 0 1.2rem !important;
+}
+
+.topic {
+    background-image: url(/img/green-geo-background.png);
+}
+
+.border-wayno {
+    border-color: #6c757d !important;
+}
+
+.btn-secondary {
+    background-color: #1a2a3a;
+    padding: .375rem 1.2rem;
+}
+
+.bg-dark {
+    background-color: #1a2a3a !important;
+}
+
+.brand-image {
+   width: 120px; 
+}
+
+.jumbotron {
+    background-image: url("../img/green-geo-background.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.social-align {
+    display: flex; 
+    align-items: center;
+}
+
+.social-icons {
+    color: white;
+    font-size: 1.8rem;
+    padding-right: .4rem;
+}
+
+.social-icons-dk {
+    font-size: 2.2rem;
+    padding-right: 1.1rem;
+}
+
+@include media-breakpoint-up(md) {
+    .custom-col {
+        column-count: 2;
+    }
+  }
+
+.topic {
+    background-image: url(/img/green-geo-background.png);
+}
+
+.footer-list ul {
+    padding: 0;
+    margin: 0;
+}
+.footer-list li {
+    display: inline-block;
+    border-right: 1px solid #ccc;
+    padding: 0 1em;
+}
+
+.footer-list li:last-child {
+    border-right: none;
+}
+
+.footer-list li a {
+    color: white;
+}

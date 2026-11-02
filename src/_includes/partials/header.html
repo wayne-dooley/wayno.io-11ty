@@ -1,0 +1,73 @@
+<!-- Navigation header -->
+
+<header>
+  <nav class="navbar justify-content-end navbar-expand-lg sticky-top navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+         <img class="brand-image" 
+              src="/img/wayno-io-logo-110-grey.png"
+              alt="wayno.io"/>
+      </a>
+      <button class="navbar-toggler" type="button" 
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarResponsive" 
+              aria-controls="navbarResponsive" 
+              aria-expanded="false" 
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link 
+                {% if page.url == '/' %}active{% endif %}" 
+                href="/" 
+                {% if page.url == '/' %}aria-current="page"{% endif %}>
+              welcome
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link 
+                {% if page.url == '/professional/' %}active{% endif %}" 
+                href="/professional/" 
+                {% if page.url == '/professional/' %}aria-current="page"{% endif %}>
+              professional
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link 
+                {% if page.url == '/personal/' %}active{% endif %}" 
+                href="/personal/" 
+                {% if page.url == '/personal/' %}aria-current="page"{% endif %}>
+              personal
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link 
+                {% if page.url == '/connect/' %}active{% endif %}" 
+                href="/connect/" 
+                {% if page.url == '/connect/' %}aria-current="page"{% endif %}>
+              connect
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link 
+                {% if page.url == '/bonus/' %}active{% endif %}" 
+                href="/bonus/" 
+                {% if page.url == '/bonus/' %}aria-current="page"{% endif %}>
+              bonus
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- Topic subheader -->
+
+<div class="container-fluid topic">
+    <div class="container pt-5 mb-2 pb-3">
+        <h1 class="display-4 mt-0 mb-3 text-white">{{ title }}</h1>
+    </div>
+</div>
