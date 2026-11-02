@@ -1,0 +1,25 @@
+---
+layout: base.html
+title: personal
+permalink: /personal/
+---
+  <h2>get to know me in thirty questions</h2>
+  <p class="mb-5">Any more than that is just creepy, man.</p>
+  <hr />
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ol class="mt-4">
+          {% for qa in aboutme %}
+            <li class="pb-3 pr-5"><strong>{{ qa.q }}?</strong><br />
+              {{ qa.a }}
+            </li>
+          {% endfor %}
+        </ol>      
+      </div>
+      <div class="col-md-4">
+        <img src="/img/ellie-recliner.jpg" class="img-thumbnail rounded mt-5"><p class="pt-2 pl-2"><em>Ellie, the good girl.</em></p>
+      </div>
+    </div>
+
