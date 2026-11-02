@@ -93,6 +93,10 @@ a.social-align:focus-visible .social-icons-dk {
     background-image: url(/img/green-geo-background.png);
 }
 
+.bg-footer {
+    background-color: #343a40;
+}
+
 .footer-list ul {
     padding: 0;
     margin: 0;
