@@ -14,6 +14,7 @@ export default function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy('src/css');
     eleventyConfig.addPassthroughCopy('src/js');
     eleventyConfig.addPassthroughCopy('src/img');
+	eleventyConfig.addPassthroughCopy('src/waynosworld');
 
     // Current copyright year
     eleventyConfig.addShortcode("year", () => new Date().getFullYear());
