@@ -3,13 +3,13 @@ layout: base.html
 title: connect
 permalink: /connect/
 ---
-<div class="container mt-5 mb-5 pb-5">
+<div class="container mt-5 mb-1 pb-1">
     <h2>drop me a line</h2>
     <p class="mb-5">Let me know how you're doing. Blink once for yes.</p>
     <hr />
 
     <div class="row mb-2 mt-3">
-        <div class="col-12 px-4 custom-col">
+        <div class="col-12 px-3 custom-col">
             {% for contact in contacts %}
             <p class="pe-3">
                 <a href="{{ contact.url }}" target="_blank"
