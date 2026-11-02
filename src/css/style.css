@@ -35,9 +35,27 @@
     height: 100vh;
 }
 
-.social-align {
-    display: flex; 
+a.social-align {
+    display: flex;
     align-items: center;
+    text-decoration: none;
+}
+
+/* Underline only the text on hover or keyboard focus */
+a.social-align:hover .social-text,
+a.social-align:focus-visible .social-text {
+    text-decoration: underline;
+}
+
+/* Smooth icon color transition */
+a.social-align .social-icons-dk {
+    transition: color 0.2s ease;
+}
+
+/* Darken the icon on hover */
+a.social-align:hover .social-icons-dk,
+a.social-align:focus-visible .social-icons-dk {
+    color: #343a40;
 }
 
 .social-icons {
@@ -51,11 +69,25 @@
     padding-right: 1.1rem;
 }
 
-@include media-breakpoint-up(md) {
+/* Default: single column on smaller screens */
+.custom-col {
+    column-count: 1;
+    width: 100%;
+}
+
+/* Two columns on medium screens and larger */
+@media (min-width: 768px) {
     .custom-col {
         column-count: 2;
+        column-gap: 2rem;
+        max-width: 620px;
     }
-  }
+}
+
+/* Keep each contact link together */
+.custom-col p {
+    break-inside: avoid;
+}
 
 .topic {
     background-image: url(/img/green-geo-background.png);
