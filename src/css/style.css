@@ -103,8 +103,8 @@ a.social-align:focus-visible .social-icons-dk {
 }
 .footer-list li {
     display: inline-block;
-    border-right: 1px solid #ccc;
-    padding: 0 1em;
+    /* border-right: 1px solid rgba(255, 255, 255, .35); */
+    padding: 0 ;
 }
 
 .footer-list li:last-child {
@@ -113,6 +113,20 @@ a.social-align:focus-visible .social-icons-dk {
 
 .footer-list li a {
     color: white;
+}
+
+.text-almost-white {
+    color: rgba(255, 255, 255, .75) !important;
+    text-decoration: none;
+}
+
+a.text-almost-white:hover {
+    color: rgba(255, 255, 255, .75) !important;
+    text-decoration: none;
+}
+
+a.text-almost-white:hover {
+    color: white !important;
 }
 
 .text-not-found {

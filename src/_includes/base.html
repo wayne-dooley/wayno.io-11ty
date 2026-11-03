@@ -27,15 +27,13 @@
     {% endif %}
     
     <main id="main-content" class="flex-grow-1" tabindex="-1">
-        <div class="container mt-5 mb-5 pb-3">
+        <div class="container mt-5 mb-2 pb-1">
             {{ content | safe }}
         </div>
     </main>
 
-    {% if title != "welcome" %}
-        {% include "partials/footer.html" %}
-    {% endif %}
-
+    {% include "partials/footer.html" %}
+ 
     <script src="/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
