@@ -114,3 +114,8 @@ a.social-align:focus-visible .social-icons-dk {
 .footer-list li a {
     color: white;
 }
+
+.text-404 {
+    font-weight: 300;
+    color:#cccccc;
+}
