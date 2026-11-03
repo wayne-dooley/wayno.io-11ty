@@ -5,6 +5,10 @@
 ## Notes
 - Always update code on the local machine from the /src directory, not /dist
 - Add custom CSS to /src/css/style.css
+- All permalinks need a trailing /
+- Start the local machine in terminal:
+  - `npx @11ty/eleventy --serve` or
+  - `npx serve` with shortcut enabled
 
 -----
 ![Eleventy](https://img.shields.io/badge/Eleventy-3.0-black?logo=eleventy&style=flat-square)
