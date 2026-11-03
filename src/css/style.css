@@ -116,6 +116,6 @@ a.social-align:focus-visible .social-icons-dk {
 }
 
 .text-not-found {
-    font-weight: 300;
-    color:#cccccc;
+    font-weight: 700 !important;
+    color:#cccccc !important;
 }
