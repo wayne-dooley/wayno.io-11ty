@@ -3,9 +3,9 @@
 - Uses Eleventy as the source and then rendered as static site code
 - Pages are served using GitHub Pages
 ## Notes
-- Always update code on the local machine from the /src directory, not /dist
-- Add custom CSS to /src/css/style.css
-- All permalinks need a trailing /
+- Always update code on the local machine from the `/src` directory, not `/dist`
+- Add custom CSS to `/src/css/style.css`
+- All permalinks need a trailing `/`
 - Start the local machine in terminal:
   - `npx @11ty/eleventy --serve` or
   - `npx serve` with shortcut enabled
