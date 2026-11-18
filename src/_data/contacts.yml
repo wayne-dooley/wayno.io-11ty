@@ -18,6 +18,10 @@
   url: mailto:w@yno.io
   icon: fas fa-envelope-square
 
+- site: letterboxd.com/w4yn0
+  url: https://letterboxd.com/w4yn0/
+  icon: fa-brands fa-square-letterboxd
+
 - site: github.com/wayne-dooley
   url: https://github.com/wayne-dooley
   icon: fab fa-github-square
