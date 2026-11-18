@@ -22,6 +22,10 @@
   url: https://letterboxd.com/w4yn0/
   icon: fa-brands fa-square-letterboxd
 
+- site: youtube.com/@waynoesbueno
+  url: https://www.youtube.com/@waynoesbueno
+  icon: fa-brands fa-square-youtube
+
 - site: github.com/wayne-dooley
   url: https://github.com/wayne-dooley
   icon: fab fa-github-square
