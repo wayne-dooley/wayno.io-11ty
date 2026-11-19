@@ -80,7 +80,16 @@ a.social-align:focus-visible .social-icons-dk {
     .custom-col {
         column-count: 2;
         column-gap: 2rem;
-        max-width: 620px;
+        max-width: 650px;
+    }
+}
+
+/* Extra-large screens: 3 columns */
+@media (min-width: 1200px) {
+    .custom-col {
+        column-count: 3;
+        column-gap: 2rem;
+        max-width: 850px;
     }
 }
 
